@@ -114,7 +114,7 @@ a:hover{
 }
 .categories{
     display: flex;
-    position: relative; 
+    position: absolute;
     margin-left: 88px;
     gap: 10px;
 }
