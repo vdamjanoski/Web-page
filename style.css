@@ -4,6 +4,7 @@ body{
 }
 .main-header{
     position: sticky;
+    z-index:100;
     top: 0;
     border-bottom: #E5E5E5 1px solid;
     background-color: white;
