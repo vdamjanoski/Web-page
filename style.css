@@ -89,11 +89,13 @@ a:hover{
 
 }
 .image{
-    position: relative;
-    left: 85px;
+    /* position: relative;
+    left: 85px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .image img{
-    position: relative;
     width: 1300px;
     height: 550px;
 }
@@ -111,9 +113,9 @@ a:hover{
     margin-bottom: 45px;
 }
 .categories{
+    display: flex;
     position: relative;
     margin-left: 88px;
-    display: flex;
     gap: 10px;
 }
 .categories-images{
