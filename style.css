@@ -114,7 +114,6 @@ a:hover{
 }
 .categories{
     display: flex;
-    position: absolute;
     margin-left: 88px;
     gap: 10px;
 }
@@ -128,7 +127,7 @@ a:hover{
         flex-direction: column;
         gap: 15px;
         margin: 0 32px;
-        bottom: 40px;
+        bottom: -780px;
 }
 .buttons button{
     width: 357px;
@@ -142,4 +141,200 @@ a:hover{
     color:white;
     transition: 0.5s;
     cursor: pointer;
+}
+.istaknuvame-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+.istaknuvame .istaknuvamebtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.istaknuvamebtns button{
+    width: 150px;
+    height: 45px;
+    background-color: white;
+    border: 1px gray solid;
+}
+.istaknuvamebtns button:hover{
+    border-color: red;
+    color: red;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.istaknuvamecards , .preporacuvamecards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 325px;
+}
+.cardinfo{
+    color: gray;
+}
+.cardtitle , .price{
+    font-weight: bold;
+}
+.NEW{
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.cards:hover{
+    cursor: pointer;
+}
+.heart:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.heart{
+    position: absolute;
+    padding-top: 300px;
+    padding-left: 300px;
+    opacity: -9999;
+    color: gray;
+}
+.poglednetebtn{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poglednetebtn button{
+    width: 200px;
+    height: 40px;
+    border: 1px solid red;
+    color: white;
+    background-color: red;
+}
+.poglednetebtn button:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.jakni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.jakni .jaknimain{
+    display: flex;
+    flex-direction: column;
+
+}
+.jakni .jaknimain img{
+    width: 635px;
+}
+.jaknimain:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.ponudatitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    font-size: 30px;
+}
+.ponuda{
+    display: flex;
+    flex-direction: column;
+}
+.sportcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 45px;
+}
+.sport{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sportcards .sport .sportimg{
+    width: 310px;
+    height: 320px;
+}
+.sportcards .sport .sporttitle , .ponuda2 .brands .brandcards .brandtitle{
+    font-size: 23px;
+    font-weight: bold;
+}
+.sportcards .sport .sportinfo , .ponuda2 .brands .brandcards .brandinfo{
+    font-size: 14px;
+    color: black !important;
+}
+.sportcards .sport:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.ponuda2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ponuda2 .brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.ponuda2 .brands .brandcards{
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+.ponuda2 .brands .brandcards img{
+    width: 415px;
+    height: 415px;
+}
+.brands .brandcards:hover{
+    color: red;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.lastbuyimg{
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 95px;
+}
+.lastbuyimg .lastbuy{
+    width: 1280px;
+    height: 400px;
+}
+.preporacuvamecards .cards .price2{
+    color: red;
+    font-size: 15px;
+}
+.preporacuvamecards .cards .price3{
+    color: gray;
+    font-size: 11px;
+    text-decoration: line-through;
+}
+.preporacuvamecards .cards .popust{
+    position: absolute;
+    margin-left: 284px;
+    margin-top: 5px;
+    background-color: red;
+    padding: 5px;
+    color: white;
 }
