@@ -416,8 +416,49 @@ body > div.footer > div > div:nth-child(5){
     align-items: center;
     justify-content: center;
 }
-/* .footer .footer-main .grids ul a:hover{
+    .footer .footer-main .grids ul a:hover{
     text-decoration: underline;
     text-decoration-color: red;
     text-decoration-thickness: 2px;
-} */
+}
+.footer-end .visacards img{
+    width: fit-content;
+    height: 20px;
+}
+.footer-end{
+    margin-left: 115px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.footer-end .visacards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-end .mkd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.footer-end .mkd .mkdspan{
+    font-weight: bold;
+    border-right: 1px solid rgb(182, 181, 181);
+    padding-right: 10px;
+}
+.footer-end .mkd .promenaspan{
+    color: gray;
+}
+.fixed-arrow{
+    position: fixed;
+    z-index: 101;
+    top: 640px;
+    right: 70px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: white;
+}
