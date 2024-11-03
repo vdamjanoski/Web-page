@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     font-size: 12px;
+    margin: 0;
 }
 .main-header{
     position: sticky;
@@ -338,3 +339,85 @@ a:hover{
     padding: 5px;
     color: white;
 }
+.newsletter-block{
+    width: 100%;
+    height: 100px;
+    margin-top: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.newsletter-block .newslettertitle{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.newsletter-block .newsletter-elements .email-signin{
+    height: 35px;
+    width: 250px;
+    border: none;
+    padding-left: 10px;
+    color: gray;
+}
+.newsletter-block .newsletter-elements .signin-btn{
+    height: 37px;
+    margin-left: -5px;
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 0 15px;
+}
+.newsletter-block .newsletter-elements .signin-btn:hover{
+    cursor: pointer;
+    background-color: rgb(211, 6, 6);
+    transition: 0.5s;
+}
+.footer .footer-main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.footer .footer-main .grids a{
+    text-decoration: none;
+    color: black;
+}
+.footer .footer-main .grids h4{
+    margin-bottom: 25px;
+}
+.footer .footer-main .grids li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer .footer-main .grids{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.footer-main{
+    margin: 45px 60px;
+}
+body > div.footer > div > div:nth-child(5){
+    width: 350px;
+}
+.footer .footer-main .grids .footer-icons{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    gap: 15px;
+}
+.footer .footer-main .grids .footer-icons i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(224, 224, 224);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .footer .footer-main .grids ul a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+} */
