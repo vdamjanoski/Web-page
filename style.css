@@ -419,10 +419,16 @@ body > div.footer > div > div:nth-child(5){
     align-items: center;
     justify-content: center;
 }
-    .footer .footer-main .grids ul a:hover{
-    text-decoration: underline;
-    text-decoration-color: red;
-    text-decoration-thickness: 2px;
+.footer .footer-main .grids ul a:after{
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: red;
+    transition: 300ms;
+}
+.footer .footer-main .grids ul a:hover:after{
+    width: 100%;
 }
 .footer-end .visacards img{
     width: fit-content;
